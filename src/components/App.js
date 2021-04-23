@@ -1,13 +1,9 @@
 import "./../assets/scss/App.scss"
 import cn from "classnames"
+import Routes from "../route/route"
 
 const App = () => {
-  const headingCN = cn("mt-8", "text-center", "text-3xl")
-  return (
-    <div className="App">
-      <h2 className={headingCN}>Welcome to React</h2>
-    </div>
-  )
+  return <Routes />
 }
 
 export default App
